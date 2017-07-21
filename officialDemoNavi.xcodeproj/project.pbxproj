@@ -1,0 +1,1545 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3A042B171DAF3CCC00BB9641 /* GPSEmulator.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A3D2C8B1D51E5A80088356E /* GPSEmulator.m */; };
+		3A042B181DB0BAAB00BB9641 /* AMapNaviEmulatorLocations in Resources */ = {isa = PBXBuildFile; fileRef = 3A3D2C881D51E5A80088356E /* AMapNaviEmulatorLocations */; };
+		3A042B191DB0BAAB00BB9641 /* AMapNaviEmulatorLocationsAddedTimes in Resources */ = {isa = PBXBuildFile; fileRef = 3A3D2C891D51E5A80088356E /* AMapNaviEmulatorLocationsAddedTimes */; };
+		3A042B441DB0C0AC00BB9641 /* CustomCarCompassViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A042B431DB0C0AC00BB9641 /* CustomCarCompassViewController.swift */; };
+		3A042B461DB0C0BF00BB9641 /* CustomCrossLaneInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A042B451DB0C0BF00BB9641 /* CustomCrossLaneInfoViewController.swift */; };
+		3A042B481DB0C0D300BB9641 /* CustomFunctionalButtonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A042B471DB0C0D300BB9641 /* CustomFunctionalButtonViewController.swift */; };
+		3A042B4A1DB0C0EC00BB9641 /* CustomRoutePolylineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A042B491DB0C0EC00BB9641 /* CustomRoutePolylineViewController.swift */; };
+		3A042B4C1DB0C0FF00BB9641 /* CustomRouteTrafficPolylineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A042B4B1DB0C0FF00BB9641 /* CustomRouteTrafficPolylineViewController.swift */; };
+		3A042B4E1DB0C11300BB9641 /* CustomTrackingModeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A042B4D1DB0C11300BB9641 /* CustomTrackingModeViewController.swift */; };
+		3A042B501DB0C12300BB9641 /* CustomTurnInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A042B4F1DB0C12300BB9641 /* CustomTurnInfoViewController.swift */; };
+		3A042B521DB0C13700BB9641 /* MultiRoutePlanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A042B511DB0C13700BB9641 /* MultiRoutePlanViewController.swift */; };
+		3A042B541DB0C14900BB9641 /* QuickStartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A042B531DB0C14900BB9641 /* QuickStartViewController.swift */; };
+		3A042B561DB0C15E00BB9641 /* QuickStartAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A042B551DB0C15E00BB9641 /* QuickStartAnnotationView.swift */; };
+		3A042B601DB86E5000BB9641 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A042B5F1DB86E5000BB9641 /* Images.xcassets */; };
+		3A042B611DB86F0E00BB9641 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A042B5F1DB86E5000BB9641 /* Images.xcassets */; };
+		3A06D9791D93F4910087C2BF /* RideRoutePlanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A06D9781D93F4910087C2BF /* RideRoutePlanViewController.m */; };
+		3A06DA1B1DAC921C0087C2BF /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A06DA041DAC921B0087C2BF /* MainViewController.swift */; };
+		3A06DA1D1DAC92CD0087C2BF /* DriveRoutePlanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A06DA1C1DAC92CD0087C2BF /* DriveRoutePlanViewController.swift */; };
+		3A06DA1F1DAC92E70087C2BF /* PreferenceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A06DA1E1DAC92E70087C2BF /* PreferenceView.swift */; };
+		3A06DA211DAC93030087C2BF /* RideRoutePlanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A06DA201DAC93030087C2BF /* RideRoutePlanViewController.swift */; };
+		3A06DA231DAC93170087C2BF /* WalkRoutePlanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A06DA221DAC93170087C2BF /* WalkRoutePlanViewController.swift */; };
+		3A06DA251DAC93980087C2BF /* DetectedModeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A06DA241DAC93980087C2BF /* DetectedModeViewController.swift */; };
+		3A06DA271DAC93EC0087C2BF /* EmulatorNaviViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A06DA261DAC93EC0087C2BF /* EmulatorNaviViewController.swift */; };
+		3A06DA291DAC94330087C2BF /* GPSEmulatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A06DA281DAC94330087C2BF /* GPSEmulatorViewController.swift */; };
+		3A06DA2B1DAC95A80087C2BF /* GPSNaviViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A06DA2A1DAC95A80087C2BF /* GPSNaviViewController.swift */; };
+		3A06DA2D1DAC96270087C2BF /* HUDNaviViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A06DA2C1DAC96270087C2BF /* HUDNaviViewController.swift */; };
+		3A06DA481DAC97B90087C2BF /* DriveNaviViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A06DA471DAC97B90087C2BF /* DriveNaviViewViewController.swift */; };
+		3A06DA4C1DAC97FA0087C2BF /* NaviPointAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A06DA4B1DAC97FA0087C2BF /* NaviPointAnnotation.swift */; };
+		3A06DA4E1DAC98290087C2BF /* RouteCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A06DA4D1DAC98290087C2BF /* RouteCollectionViewCell.swift */; };
+		3A06DA501DAC98540087C2BF /* SelectableOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A06DA4F1DAC98540087C2BF /* SelectableOverlay.swift */; };
+		3A06DA531DAC9D070087C2BF /* SpeechSynthesizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A06DA521DAC9D070087C2BF /* SpeechSynthesizer.swift */; };
+		3A06DA541DACD7FF0087C2BF /* arrowTexture0.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A3D2C681D51E5A80088356E /* arrowTexture0.png */; };
+		3A06DA551DACD7FF0087C2BF /* arrowTexture1.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A3D2C691D51E5A80088356E /* arrowTexture1.png */; };
+		3A06DA561DACD7FF0087C2BF /* arrowTexture2.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A3D2C6A1D51E5A80088356E /* arrowTexture2.png */; };
+		3A06DA571DACD7FF0087C2BF /* arrowTexture3.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A3D2C6B1D51E5A80088356E /* arrowTexture3.png */; };
+		3A06DA581DACD7FF0087C2BF /* arrowTexture4.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A3D2C6C1D51E5A80088356E /* arrowTexture4.png */; };
+		3A06DA591DACD7FF0087C2BF /* car.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A3D2C6D1D51E5A80088356E /* car.png */; };
+		3A06DA5A1DACD7FF0087C2BF /* car@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A3D2C6E1D51E5A80088356E /* car@2x.png */; };
+		3A06DA5B1DACD7FF0087C2BF /* customCar.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A3D2C6F1D51E5A80088356E /* customCar.png */; };
+		3A06DA5C1DACD7FF0087C2BF /* customCompass.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A3D2C701D51E5A80088356E /* customCompass.png */; };
+		3A06DA5D1DACD7FF0087C2BF /* leftArrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A3D2C711D51E5A80088356E /* leftArrow@2x.png */; };
+		3A06DA5E1DACD7FF0087C2BF /* navi@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A3D2C721D51E5A80088356E /* navi@2x.png */; };
+		3A06DA5F1DACD7FF0087C2BF /* naviBackgroundHighlighted.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A3D2C731D51E5A80088356E /* naviBackgroundHighlighted.png */; };
+		3A06DA601DACD7FF0087C2BF /* naviBackgroundNormal.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A3D2C741D51E5A80088356E /* naviBackgroundNormal.png */; };
+		3A06DA611DACD7FF0087C2BF /* rightArrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A3D2C751D51E5A80088356E /* rightArrow@2x.png */; };
+		3A06DA621DACFC420087C2BF /* MoreMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A3D2C5A1D51E5A80088356E /* MoreMenuView.m */; };
+		3A1B4B7A1CC77046003DEA3A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A1B4B791CC77046003DEA3A /* AppDelegate.swift */; };
+		3A1B4B841CC77046003DEA3A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A1B4B821CC77046003DEA3A /* LaunchScreen.storyboard */; };
+		3A1B68EC1EF0103B001E6A28 /* CustomMapTypeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A1B68EA1EF0103B001E6A28 /* CustomMapTypeViewController.m */; };
+		3A1B68ED1EF0103B001E6A28 /* mystyle_sdk_1497259956_0100.data in Resources */ = {isa = PBXBuildFile; fileRef = 3A1B68EB1EF0103B001E6A28 /* mystyle_sdk_1497259956_0100.data */; };
+		3A1B68EF1EF010C6001E6A28 /* mystyle_sdk_1497259956_0100.data in Resources */ = {isa = PBXBuildFile; fileRef = 3A1B68EB1EF0103B001E6A28 /* mystyle_sdk_1497259956_0100.data */; };
+		3A1B68F41EF01222001E6A28 /* CustomMapTypeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A1B68F31EF01222001E6A28 /* CustomMapTypeViewController.swift */; };
+		3A3605321CA23DB300DC3B61 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A3605311CA23DB300DC3B61 /* main.m */; };
+		3A3605351CA23DB300DC3B61 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A3605341CA23DB300DC3B61 /* AppDelegate.m */; };
+		3A3605401CA23DB300DC3B61 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A36053E1CA23DB300DC3B61 /* LaunchScreen.storyboard */; };
+		3A3605BC1CA29DE400DC3B61 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A36059A1CA29DE400DC3B61 /* MainViewController.m */; };
+		3A3D2CBA1D51E5A80088356E /* DriveNaviViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A3D2C571D51E5A80088356E /* DriveNaviViewController.m */; };
+		3A3D2CBB1D51E5A80088356E /* MoreMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A3D2C5A1D51E5A80088356E /* MoreMenuView.m */; };
+		3A3D2CBC1D51E5A80088356E /* NaviPointAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A3D2C5D1D51E5A80088356E /* NaviPointAnnotation.m */; };
+		3A3D2CBD1D51E5A80088356E /* RouteCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A3D2C601D51E5A80088356E /* RouteCollectionViewCell.m */; };
+		3A3D2CBE1D51E5A80088356E /* SelectableOverlay.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A3D2C631D51E5A80088356E /* SelectableOverlay.m */; };
+		3A3D2CBF1D51E5A80088356E /* SpeechSynthesizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A3D2C661D51E5A80088356E /* SpeechSynthesizer.m */; };
+		3A3D2CC01D51E5A80088356E /* arrowTexture0.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A3D2C681D51E5A80088356E /* arrowTexture0.png */; };
+		3A3D2CC11D51E5A80088356E /* arrowTexture1.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A3D2C691D51E5A80088356E /* arrowTexture1.png */; };
+		3A3D2CC21D51E5A80088356E /* arrowTexture2.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A3D2C6A1D51E5A80088356E /* arrowTexture2.png */; };
+		3A3D2CC31D51E5A80088356E /* arrowTexture3.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A3D2C6B1D51E5A80088356E /* arrowTexture3.png */; };
+		3A3D2CC41D51E5A80088356E /* arrowTexture4.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A3D2C6C1D51E5A80088356E /* arrowTexture4.png */; };
+		3A3D2CC51D51E5A80088356E /* car.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A3D2C6D1D51E5A80088356E /* car.png */; };
+		3A3D2CC61D51E5A80088356E /* car@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A3D2C6E1D51E5A80088356E /* car@2x.png */; };
+		3A3D2CC71D51E5A80088356E /* customCar.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A3D2C6F1D51E5A80088356E /* customCar.png */; };
+		3A3D2CC81D51E5A80088356E /* customCompass.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A3D2C701D51E5A80088356E /* customCompass.png */; };
+		3A3D2CC91D51E5A80088356E /* leftArrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A3D2C711D51E5A80088356E /* leftArrow@2x.png */; };
+		3A3D2CCA1D51E5A80088356E /* navi@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A3D2C721D51E5A80088356E /* navi@2x.png */; };
+		3A3D2CCB1D51E5A80088356E /* naviBackgroundHighlighted.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A3D2C731D51E5A80088356E /* naviBackgroundHighlighted.png */; };
+		3A3D2CCC1D51E5A80088356E /* naviBackgroundNormal.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A3D2C741D51E5A80088356E /* naviBackgroundNormal.png */; };
+		3A3D2CCD1D51E5A80088356E /* rightArrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A3D2C751D51E5A80088356E /* rightArrow@2x.png */; };
+		3A3D2CCE1D51E5A80088356E /* DriveRoutePlanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A3D2C7A1D51E5A80088356E /* DriveRoutePlanViewController.m */; };
+		3A3D2CCF1D51E5A80088356E /* PreferenceView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A3D2C7C1D51E5A80088356E /* PreferenceView.m */; };
+		3A3D2CD01D51E5A80088356E /* WalkRoutePlanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A3D2C7F1D51E5A80088356E /* WalkRoutePlanViewController.m */; };
+		3A3D2CD11D51E5A80088356E /* DetectedModeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A3D2C831D51E5A80088356E /* DetectedModeViewController.m */; };
+		3A3D2CD21D51E5A80088356E /* EmulatorNaviViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A3D2C861D51E5A80088356E /* EmulatorNaviViewController.m */; };
+		3A3D2CD31D51E5A80088356E /* AMapNaviEmulatorLocations in Resources */ = {isa = PBXBuildFile; fileRef = 3A3D2C881D51E5A80088356E /* AMapNaviEmulatorLocations */; };
+		3A3D2CD41D51E5A80088356E /* AMapNaviEmulatorLocationsAddedTimes in Resources */ = {isa = PBXBuildFile; fileRef = 3A3D2C891D51E5A80088356E /* AMapNaviEmulatorLocationsAddedTimes */; };
+		3A3D2CD51D51E5A80088356E /* GPSEmulator.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A3D2C8B1D51E5A80088356E /* GPSEmulator.m */; };
+		3A3D2CD61D51E5A80088356E /* GPSEmulatorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A3D2C8D1D51E5A80088356E /* GPSEmulatorViewController.m */; };
+		3A3D2CD71D51E5A80088356E /* GPSNaviViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A3D2C901D51E5A80088356E /* GPSNaviViewController.m */; };
+		3A3D2CD91D51E5A80088356E /* HUDNaviViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A3D2C971D51E5A80088356E /* HUDNaviViewController.m */; };
+		3A3D2CDA1D51E5A80088356E /* CustomCarCompassViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A3D2C9B1D51E5A80088356E /* CustomCarCompassViewController.m */; };
+		3A3D2CDB1D51E5A80088356E /* CustomCrossLaneInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A3D2C9E1D51E5A80088356E /* CustomCrossLaneInfoViewController.m */; };
+		3A3D2CDC1D51E5A80088356E /* CustomFunctionalButtonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A3D2CA11D51E5A80088356E /* CustomFunctionalButtonViewController.m */; };
+		3A3D2CDD1D51E5A80088356E /* CustomRoutePolylineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A3D2CA41D51E5A80088356E /* CustomRoutePolylineViewController.m */; };
+		3A3D2CDE1D51E5A80088356E /* CustomRouteTrafficPolylineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A3D2CA71D51E5A80088356E /* CustomRouteTrafficPolylineViewController.m */; };
+		3A3D2CDF1D51E5A80088356E /* CustomTrackingModeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A3D2CAA1D51E5A80088356E /* CustomTrackingModeViewController.m */; };
+		3A3D2CE11D51E5A80088356E /* CustomTurnInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A3D2CB01D51E5A80088356E /* CustomTurnInfoViewController.m */; };
+		3A3D2CE21D51E5A80088356E /* MultiRoutePlanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A3D2CB41D51E5A80088356E /* MultiRoutePlanViewController.m */; };
+		3A3D2CE31D51E5A80088356E /* QuickStartAnnotationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A3D2CB71D51E5A80088356E /* QuickStartAnnotationView.m */; };
+		3A3D2CE41D51E5A80088356E /* QuickStartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A3D2CB91D51E5A80088356E /* QuickStartViewController.m */; };
+		3A6BE81C1EA5B677000A2B67 /* CustomTrafficBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A6BE81B1EA5B677000A2B67 /* CustomTrafficBarViewController.m */; };
+		3A6BE81F1EA5BC33000A2B67 /* CustomTrafficBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A6BE81E1EA5BC33000A2B67 /* CustomTrafficBarViewController.swift */; };
+		3AC60C1C1F21AF86002F9BC8 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 3AC60C1B1F21AF86002F9BC8 /* README.md */; };
+		52F753D8FEFD47131112FBA9 /* libPods-officialDemoNavi.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A9153E7C70F5CEAA5B589F1 /* libPods-officialDemoNavi.a */; };
+		9E08EEE8E6245C7755B8A303 /* libPods-officialDemoNavi-Swift.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B037A458358545DB18C8D5CB /* libPods-officialDemoNavi-Swift.a */; };
+		D9512E6B1F1F39D00021527D /* CompositeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9512E6A1F1F39D00021527D /* CompositeViewController.m */; };
+		D9512E6D1F1F40080021527D /* CompositeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9512E6C1F1F40080021527D /* CompositeViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0A9153E7C70F5CEAA5B589F1 /* libPods-officialDemoNavi.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-officialDemoNavi.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A042B431DB0C0AC00BB9641 /* CustomCarCompassViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCarCompassViewController.swift; sourceTree = "<group>"; };
+		3A042B451DB0C0BF00BB9641 /* CustomCrossLaneInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCrossLaneInfoViewController.swift; sourceTree = "<group>"; };
+		3A042B471DB0C0D300BB9641 /* CustomFunctionalButtonViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomFunctionalButtonViewController.swift; sourceTree = "<group>"; };
+		3A042B491DB0C0EC00BB9641 /* CustomRoutePolylineViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomRoutePolylineViewController.swift; sourceTree = "<group>"; };
+		3A042B4B1DB0C0FF00BB9641 /* CustomRouteTrafficPolylineViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomRouteTrafficPolylineViewController.swift; sourceTree = "<group>"; };
+		3A042B4D1DB0C11300BB9641 /* CustomTrackingModeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTrackingModeViewController.swift; sourceTree = "<group>"; };
+		3A042B4F1DB0C12300BB9641 /* CustomTurnInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTurnInfoViewController.swift; sourceTree = "<group>"; };
+		3A042B511DB0C13700BB9641 /* MultiRoutePlanViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MultiRoutePlanViewController.swift; sourceTree = "<group>"; };
+		3A042B531DB0C14900BB9641 /* QuickStartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuickStartViewController.swift; sourceTree = "<group>"; };
+		3A042B551DB0C15E00BB9641 /* QuickStartAnnotationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuickStartAnnotationView.swift; sourceTree = "<group>"; };
+		3A042B5F1DB86E5000BB9641 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3A06D9771D93F4910087C2BF /* RideRoutePlanViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RideRoutePlanViewController.h; sourceTree = "<group>"; };
+		3A06D9781D93F4910087C2BF /* RideRoutePlanViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RideRoutePlanViewController.m; sourceTree = "<group>"; };
+		3A06D97D1D9A2DF60087C2BF /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		3A06DA041DAC921B0087C2BF /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		3A06DA1C1DAC92CD0087C2BF /* DriveRoutePlanViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DriveRoutePlanViewController.swift; sourceTree = "<group>"; };
+		3A06DA1E1DAC92E70087C2BF /* PreferenceView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PreferenceView.swift; sourceTree = "<group>"; };
+		3A06DA201DAC93030087C2BF /* RideRoutePlanViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RideRoutePlanViewController.swift; sourceTree = "<group>"; };
+		3A06DA221DAC93170087C2BF /* WalkRoutePlanViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WalkRoutePlanViewController.swift; sourceTree = "<group>"; };
+		3A06DA241DAC93980087C2BF /* DetectedModeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetectedModeViewController.swift; sourceTree = "<group>"; };
+		3A06DA261DAC93EC0087C2BF /* EmulatorNaviViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmulatorNaviViewController.swift; sourceTree = "<group>"; };
+		3A06DA281DAC94330087C2BF /* GPSEmulatorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GPSEmulatorViewController.swift; sourceTree = "<group>"; };
+		3A06DA2A1DAC95A80087C2BF /* GPSNaviViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GPSNaviViewController.swift; sourceTree = "<group>"; };
+		3A06DA2C1DAC96270087C2BF /* HUDNaviViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HUDNaviViewController.swift; sourceTree = "<group>"; };
+		3A06DA471DAC97B90087C2BF /* DriveNaviViewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DriveNaviViewViewController.swift; sourceTree = "<group>"; };
+		3A06DA4B1DAC97FA0087C2BF /* NaviPointAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NaviPointAnnotation.swift; sourceTree = "<group>"; };
+		3A06DA4D1DAC98290087C2BF /* RouteCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RouteCollectionViewCell.swift; sourceTree = "<group>"; };
+		3A06DA4F1DAC98540087C2BF /* SelectableOverlay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectableOverlay.swift; sourceTree = "<group>"; };
+		3A06DA521DAC9D070087C2BF /* SpeechSynthesizer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpeechSynthesizer.swift; sourceTree = "<group>"; };
+		3A1B4B771CC77046003DEA3A /* officialDemoNavi-Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "officialDemoNavi-Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A1B4B791CC77046003DEA3A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3A1B4B831CC77046003DEA3A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3A1B4B851CC77046003DEA3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A1B4B931CC775DF003DEA3A /* officialDemoNavi-Swift-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "officialDemoNavi-Swift-Bridging-Header.h"; sourceTree = SOURCE_ROOT; };
+		3A1B68E91EF0103B001E6A28 /* CustomMapTypeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomMapTypeViewController.h; sourceTree = "<group>"; };
+		3A1B68EA1EF0103B001E6A28 /* CustomMapTypeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomMapTypeViewController.m; sourceTree = "<group>"; };
+		3A1B68EB1EF0103B001E6A28 /* mystyle_sdk_1497259956_0100.data */ = {isa = PBXFileReference; lastKnownFileType = file; path = mystyle_sdk_1497259956_0100.data; sourceTree = "<group>"; };
+		3A1B68F31EF01222001E6A28 /* CustomMapTypeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomMapTypeViewController.swift; sourceTree = "<group>"; };
+		3A36052D1CA23DB300DC3B61 /* officialDemoNavi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = officialDemoNavi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A3605311CA23DB300DC3B61 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3A3605331CA23DB300DC3B61 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3A3605341CA23DB300DC3B61 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3A36053F1CA23DB300DC3B61 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3A3605411CA23DB300DC3B61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A3605581CA29DE400DC3B61 /* APIKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APIKey.h; sourceTree = "<group>"; };
+		3A3605991CA29DE400DC3B61 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		3A36059A1CA29DE400DC3B61 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		3A3605C71CA386F200DC3B61 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		3A3605C91CA3871000DC3B61 /* libstdc++.6.0.9.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.6.0.9.tbd"; path = "usr/lib/libstdc++.6.0.9.tbd"; sourceTree = SDKROOT; };
+		3A3605CB1CA3871900DC3B61 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		3A3605CD1CA3872100DC3B61 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		3A3605CF1CA3872C00DC3B61 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		3A3D2C561D51E5A80088356E /* DriveNaviViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DriveNaviViewController.h; sourceTree = "<group>"; };
+		3A3D2C571D51E5A80088356E /* DriveNaviViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DriveNaviViewController.m; sourceTree = "<group>"; };
+		3A3D2C591D51E5A80088356E /* MoreMenuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoreMenuView.h; sourceTree = "<group>"; };
+		3A3D2C5A1D51E5A80088356E /* MoreMenuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoreMenuView.m; sourceTree = "<group>"; };
+		3A3D2C5C1D51E5A80088356E /* NaviPointAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NaviPointAnnotation.h; sourceTree = "<group>"; };
+		3A3D2C5D1D51E5A80088356E /* NaviPointAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NaviPointAnnotation.m; sourceTree = "<group>"; };
+		3A3D2C5F1D51E5A80088356E /* RouteCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RouteCollectionViewCell.h; sourceTree = "<group>"; };
+		3A3D2C601D51E5A80088356E /* RouteCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RouteCollectionViewCell.m; sourceTree = "<group>"; };
+		3A3D2C621D51E5A80088356E /* SelectableOverlay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectableOverlay.h; sourceTree = "<group>"; };
+		3A3D2C631D51E5A80088356E /* SelectableOverlay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectableOverlay.m; sourceTree = "<group>"; };
+		3A3D2C651D51E5A80088356E /* SpeechSynthesizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpeechSynthesizer.h; sourceTree = "<group>"; };
+		3A3D2C661D51E5A80088356E /* SpeechSynthesizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpeechSynthesizer.m; sourceTree = "<group>"; };
+		3A3D2C681D51E5A80088356E /* arrowTexture0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrowTexture0.png; sourceTree = "<group>"; };
+		3A3D2C691D51E5A80088356E /* arrowTexture1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrowTexture1.png; sourceTree = "<group>"; };
+		3A3D2C6A1D51E5A80088356E /* arrowTexture2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrowTexture2.png; sourceTree = "<group>"; };
+		3A3D2C6B1D51E5A80088356E /* arrowTexture3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrowTexture3.png; sourceTree = "<group>"; };
+		3A3D2C6C1D51E5A80088356E /* arrowTexture4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrowTexture4.png; sourceTree = "<group>"; };
+		3A3D2C6D1D51E5A80088356E /* car.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = car.png; sourceTree = "<group>"; };
+		3A3D2C6E1D51E5A80088356E /* car@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "car@2x.png"; sourceTree = "<group>"; };
+		3A3D2C6F1D51E5A80088356E /* customCar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = customCar.png; sourceTree = "<group>"; };
+		3A3D2C701D51E5A80088356E /* customCompass.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = customCompass.png; sourceTree = "<group>"; };
+		3A3D2C711D51E5A80088356E /* leftArrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "leftArrow@2x.png"; sourceTree = "<group>"; };
+		3A3D2C721D51E5A80088356E /* navi@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "navi@2x.png"; sourceTree = "<group>"; };
+		3A3D2C731D51E5A80088356E /* naviBackgroundHighlighted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = naviBackgroundHighlighted.png; sourceTree = "<group>"; };
+		3A3D2C741D51E5A80088356E /* naviBackgroundNormal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = naviBackgroundNormal.png; sourceTree = "<group>"; };
+		3A3D2C751D51E5A80088356E /* rightArrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "rightArrow@2x.png"; sourceTree = "<group>"; };
+		3A3D2C791D51E5A80088356E /* DriveRoutePlanViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DriveRoutePlanViewController.h; sourceTree = "<group>"; };
+		3A3D2C7A1D51E5A80088356E /* DriveRoutePlanViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DriveRoutePlanViewController.m; sourceTree = "<group>"; };
+		3A3D2C7B1D51E5A80088356E /* PreferenceView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PreferenceView.h; sourceTree = "<group>"; };
+		3A3D2C7C1D51E5A80088356E /* PreferenceView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PreferenceView.m; sourceTree = "<group>"; };
+		3A3D2C7E1D51E5A80088356E /* WalkRoutePlanViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WalkRoutePlanViewController.h; sourceTree = "<group>"; };
+		3A3D2C7F1D51E5A80088356E /* WalkRoutePlanViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WalkRoutePlanViewController.m; sourceTree = "<group>"; };
+		3A3D2C821D51E5A80088356E /* DetectedModeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetectedModeViewController.h; sourceTree = "<group>"; };
+		3A3D2C831D51E5A80088356E /* DetectedModeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetectedModeViewController.m; sourceTree = "<group>"; };
+		3A3D2C851D51E5A80088356E /* EmulatorNaviViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmulatorNaviViewController.h; sourceTree = "<group>"; };
+		3A3D2C861D51E5A80088356E /* EmulatorNaviViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmulatorNaviViewController.m; sourceTree = "<group>"; };
+		3A3D2C881D51E5A80088356E /* AMapNaviEmulatorLocations */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = AMapNaviEmulatorLocations; sourceTree = "<group>"; };
+		3A3D2C891D51E5A80088356E /* AMapNaviEmulatorLocationsAddedTimes */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = AMapNaviEmulatorLocationsAddedTimes; sourceTree = "<group>"; };
+		3A3D2C8A1D51E5A80088356E /* GPSEmulator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPSEmulator.h; sourceTree = "<group>"; };
+		3A3D2C8B1D51E5A80088356E /* GPSEmulator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPSEmulator.m; sourceTree = "<group>"; };
+		3A3D2C8C1D51E5A80088356E /* GPSEmulatorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPSEmulatorViewController.h; sourceTree = "<group>"; };
+		3A3D2C8D1D51E5A80088356E /* GPSEmulatorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPSEmulatorViewController.m; sourceTree = "<group>"; };
+		3A3D2C8F1D51E5A80088356E /* GPSNaviViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPSNaviViewController.h; sourceTree = "<group>"; };
+		3A3D2C901D51E5A80088356E /* GPSNaviViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPSNaviViewController.m; sourceTree = "<group>"; };
+		3A3D2C961D51E5A80088356E /* HUDNaviViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HUDNaviViewController.h; sourceTree = "<group>"; };
+		3A3D2C971D51E5A80088356E /* HUDNaviViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HUDNaviViewController.m; sourceTree = "<group>"; };
+		3A3D2C9A1D51E5A80088356E /* CustomCarCompassViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomCarCompassViewController.h; sourceTree = "<group>"; };
+		3A3D2C9B1D51E5A80088356E /* CustomCarCompassViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomCarCompassViewController.m; sourceTree = "<group>"; };
+		3A3D2C9D1D51E5A80088356E /* CustomCrossLaneInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomCrossLaneInfoViewController.h; sourceTree = "<group>"; };
+		3A3D2C9E1D51E5A80088356E /* CustomCrossLaneInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomCrossLaneInfoViewController.m; sourceTree = "<group>"; };
+		3A3D2CA01D51E5A80088356E /* CustomFunctionalButtonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomFunctionalButtonViewController.h; sourceTree = "<group>"; };
+		3A3D2CA11D51E5A80088356E /* CustomFunctionalButtonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomFunctionalButtonViewController.m; sourceTree = "<group>"; };
+		3A3D2CA31D51E5A80088356E /* CustomRoutePolylineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomRoutePolylineViewController.h; sourceTree = "<group>"; };
+		3A3D2CA41D51E5A80088356E /* CustomRoutePolylineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomRoutePolylineViewController.m; sourceTree = "<group>"; };
+		3A3D2CA61D51E5A80088356E /* CustomRouteTrafficPolylineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomRouteTrafficPolylineViewController.h; sourceTree = "<group>"; };
+		3A3D2CA71D51E5A80088356E /* CustomRouteTrafficPolylineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomRouteTrafficPolylineViewController.m; sourceTree = "<group>"; };
+		3A3D2CA91D51E5A80088356E /* CustomTrackingModeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTrackingModeViewController.h; sourceTree = "<group>"; };
+		3A3D2CAA1D51E5A80088356E /* CustomTrackingModeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTrackingModeViewController.m; sourceTree = "<group>"; };
+		3A3D2CAF1D51E5A80088356E /* CustomTurnInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTurnInfoViewController.h; sourceTree = "<group>"; };
+		3A3D2CB01D51E5A80088356E /* CustomTurnInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTurnInfoViewController.m; sourceTree = "<group>"; };
+		3A3D2CB31D51E5A80088356E /* MultiRoutePlanViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MultiRoutePlanViewController.h; sourceTree = "<group>"; };
+		3A3D2CB41D51E5A80088356E /* MultiRoutePlanViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MultiRoutePlanViewController.m; sourceTree = "<group>"; };
+		3A3D2CB61D51E5A80088356E /* QuickStartAnnotationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuickStartAnnotationView.h; sourceTree = "<group>"; };
+		3A3D2CB71D51E5A80088356E /* QuickStartAnnotationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuickStartAnnotationView.m; sourceTree = "<group>"; };
+		3A3D2CB81D51E5A80088356E /* QuickStartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuickStartViewController.h; sourceTree = "<group>"; };
+		3A3D2CB91D51E5A80088356E /* QuickStartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuickStartViewController.m; sourceTree = "<group>"; };
+		3A5EAD431E7287EB00EEEA5D /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		3A6BE81A1EA5B677000A2B67 /* CustomTrafficBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTrafficBarViewController.h; sourceTree = "<group>"; };
+		3A6BE81B1EA5B677000A2B67 /* CustomTrafficBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTrafficBarViewController.m; sourceTree = "<group>"; };
+		3A6BE81E1EA5BC33000A2B67 /* CustomTrafficBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTrafficBarViewController.swift; sourceTree = "<group>"; };
+		3AC60C1B1F21AF86002F9BC8 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		9E1A7C3C44E8BF657FCF2141 /* Pods-officialDemoNavi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-officialDemoNavi.release.xcconfig"; path = "Pods/Target Support Files/Pods-officialDemoNavi/Pods-officialDemoNavi.release.xcconfig"; sourceTree = "<group>"; };
+		B037A458358545DB18C8D5CB /* libPods-officialDemoNavi-Swift.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-officialDemoNavi-Swift.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE5325663CDB3BF2A4F1F12A /* Pods-officialDemoNavi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-officialDemoNavi.debug.xcconfig"; path = "Pods/Target Support Files/Pods-officialDemoNavi/Pods-officialDemoNavi.debug.xcconfig"; sourceTree = "<group>"; };
+		D9512E691F1F39D00021527D /* CompositeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CompositeViewController.h; sourceTree = "<group>"; };
+		D9512E6A1F1F39D00021527D /* CompositeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CompositeViewController.m; sourceTree = "<group>"; };
+		D9512E6C1F1F40080021527D /* CompositeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CompositeViewController.swift; sourceTree = "<group>"; };
+		DA8081FD700AA3CCB88885BC /* Pods-officialDemoNavi-Swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-officialDemoNavi-Swift.release.xcconfig"; path = "Pods/Target Support Files/Pods-officialDemoNavi-Swift/Pods-officialDemoNavi-Swift.release.xcconfig"; sourceTree = "<group>"; };
+		EA76BEECC2035E35BFB694E8 /* Pods-officialDemoNavi-Swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-officialDemoNavi-Swift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-officialDemoNavi-Swift/Pods-officialDemoNavi-Swift.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3A1B4B741CC77046003DEA3A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E08EEE8E6245C7755B8A303 /* libPods-officialDemoNavi-Swift.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A36052A1CA23DB300DC3B61 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52F753D8FEFD47131112FBA9 /* libPods-officialDemoNavi.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		351138A666548396D524F508 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BE5325663CDB3BF2A4F1F12A /* Pods-officialDemoNavi.debug.xcconfig */,
+				9E1A7C3C44E8BF657FCF2141 /* Pods-officialDemoNavi.release.xcconfig */,
+				EA76BEECC2035E35BFB694E8 /* Pods-officialDemoNavi-Swift.debug.xcconfig */,
+				DA8081FD700AA3CCB88885BC /* Pods-officialDemoNavi-Swift.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		3A042B1A1DB0C08A00BB9641 /* Section4 */ = {
+			isa = PBXGroup;
+			children = (
+				3A042B1B1DB0C08A00BB9641 /* CustomCarCompass */,
+				3A042B271DB0C08A00BB9641 /* CustomRouteTrafficPolyline */,
+				3A042B241DB0C08A00BB9641 /* CustomRoutePolyline */,
+				3A042B2D1DB0C08A00BB9641 /* CustomTurnInfo */,
+				3A042B1E1DB0C08A00BB9641 /* CustomCrossLaneInfo */,
+				3A6BE81D1EA5BC17000A2B67 /* CustomTrafficBar */,
+				3A042B211DB0C08A00BB9641 /* CustomFunctionalButton */,
+				3A042B2A1DB0C08A00BB9641 /* CustomTrackingMode */,
+				3A1B68F21EF01222001E6A28 /* CustomMapType */,
+			);
+			path = Section4;
+			sourceTree = "<group>";
+		};
+		3A042B1B1DB0C08A00BB9641 /* CustomCarCompass */ = {
+			isa = PBXGroup;
+			children = (
+				3A042B431DB0C0AC00BB9641 /* CustomCarCompassViewController.swift */,
+			);
+			path = CustomCarCompass;
+			sourceTree = "<group>";
+		};
+		3A042B1E1DB0C08A00BB9641 /* CustomCrossLaneInfo */ = {
+			isa = PBXGroup;
+			children = (
+				3A042B451DB0C0BF00BB9641 /* CustomCrossLaneInfoViewController.swift */,
+			);
+			path = CustomCrossLaneInfo;
+			sourceTree = "<group>";
+		};
+		3A042B211DB0C08A00BB9641 /* CustomFunctionalButton */ = {
+			isa = PBXGroup;
+			children = (
+				3A042B471DB0C0D300BB9641 /* CustomFunctionalButtonViewController.swift */,
+			);
+			path = CustomFunctionalButton;
+			sourceTree = "<group>";
+		};
+		3A042B241DB0C08A00BB9641 /* CustomRoutePolyline */ = {
+			isa = PBXGroup;
+			children = (
+				3A042B491DB0C0EC00BB9641 /* CustomRoutePolylineViewController.swift */,
+			);
+			path = CustomRoutePolyline;
+			sourceTree = "<group>";
+		};
+		3A042B271DB0C08A00BB9641 /* CustomRouteTrafficPolyline */ = {
+			isa = PBXGroup;
+			children = (
+				3A042B4B1DB0C0FF00BB9641 /* CustomRouteTrafficPolylineViewController.swift */,
+			);
+			path = CustomRouteTrafficPolyline;
+			sourceTree = "<group>";
+		};
+		3A042B2A1DB0C08A00BB9641 /* CustomTrackingMode */ = {
+			isa = PBXGroup;
+			children = (
+				3A042B4D1DB0C11300BB9641 /* CustomTrackingModeViewController.swift */,
+			);
+			path = CustomTrackingMode;
+			sourceTree = "<group>";
+		};
+		3A042B2D1DB0C08A00BB9641 /* CustomTurnInfo */ = {
+			isa = PBXGroup;
+			children = (
+				3A042B4F1DB0C12300BB9641 /* CustomTurnInfoViewController.swift */,
+			);
+			path = CustomTurnInfo;
+			sourceTree = "<group>";
+		};
+		3A042B301DB0C08A00BB9641 /* Section5 */ = {
+			isa = PBXGroup;
+			children = (
+				3A042B311DB0C08A00BB9641 /* MultiRoutePlan */,
+				3A042B341DB0C08A00BB9641 /* QuickStart */,
+			);
+			path = Section5;
+			sourceTree = "<group>";
+		};
+		3A042B311DB0C08A00BB9641 /* MultiRoutePlan */ = {
+			isa = PBXGroup;
+			children = (
+				3A042B511DB0C13700BB9641 /* MultiRoutePlanViewController.swift */,
+			);
+			path = MultiRoutePlan;
+			sourceTree = "<group>";
+		};
+		3A042B341DB0C08A00BB9641 /* QuickStart */ = {
+			isa = PBXGroup;
+			children = (
+				3A042B531DB0C14900BB9641 /* QuickStartViewController.swift */,
+				3A042B551DB0C15E00BB9641 /* QuickStartAnnotationView.swift */,
+			);
+			path = QuickStart;
+			sourceTree = "<group>";
+		};
+		3A06D9761D93F4910087C2BF /* RideRoutePlan */ = {
+			isa = PBXGroup;
+			children = (
+				3A06D9771D93F4910087C2BF /* RideRoutePlanViewController.h */,
+				3A06D9781D93F4910087C2BF /* RideRoutePlanViewController.m */,
+			);
+			path = RideRoutePlan;
+			sourceTree = "<group>";
+		};
+		3A06D97C1D9A2DF60087C2BF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3A5EAD431E7287EB00EEEA5D /* GLKit.framework */,
+				3A06D97D1D9A2DF60087C2BF /* JavaScriptCore.framework */,
+				0A9153E7C70F5CEAA5B589F1 /* libPods-officialDemoNavi.a */,
+				B037A458358545DB18C8D5CB /* libPods-officialDemoNavi-Swift.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3A06D9C31DAC921B0087C2BF /* Items */ = {
+			isa = PBXGroup;
+			children = (
+				D93CA86C1EEFF49100475806 /* Section0 */,
+				3A06D9C41DAC921B0087C2BF /* Section1 */,
+				3A06D9D01DAC921B0087C2BF /* Section2 */,
+				3A06D9E11DAC921B0087C2BF /* Section3 */,
+				3A042B1A1DB0C08A00BB9641 /* Section4 */,
+				3A042B301DB0C08A00BB9641 /* Section5 */,
+			);
+			path = Items;
+			sourceTree = "<group>";
+		};
+		3A06D9C41DAC921B0087C2BF /* Section1 */ = {
+			isa = PBXGroup;
+			children = (
+				3A06D9C51DAC921B0087C2BF /* DriveRoutePlan */,
+				3A06D9CD1DAC921B0087C2BF /* WalkRoutePlan */,
+				3A06D9CA1DAC921B0087C2BF /* RideRoutePlan */,
+			);
+			path = Section1;
+			sourceTree = "<group>";
+		};
+		3A06D9C51DAC921B0087C2BF /* DriveRoutePlan */ = {
+			isa = PBXGroup;
+			children = (
+				3A06DA1C1DAC92CD0087C2BF /* DriveRoutePlanViewController.swift */,
+				3A06DA1E1DAC92E70087C2BF /* PreferenceView.swift */,
+			);
+			path = DriveRoutePlan;
+			sourceTree = "<group>";
+		};
+		3A06D9CA1DAC921B0087C2BF /* RideRoutePlan */ = {
+			isa = PBXGroup;
+			children = (
+				3A06DA201DAC93030087C2BF /* RideRoutePlanViewController.swift */,
+			);
+			path = RideRoutePlan;
+			sourceTree = "<group>";
+		};
+		3A06D9CD1DAC921B0087C2BF /* WalkRoutePlan */ = {
+			isa = PBXGroup;
+			children = (
+				3A06DA221DAC93170087C2BF /* WalkRoutePlanViewController.swift */,
+			);
+			path = WalkRoutePlan;
+			sourceTree = "<group>";
+		};
+		3A06D9D01DAC921B0087C2BF /* Section2 */ = {
+			isa = PBXGroup;
+			children = (
+				3A06D9DE1DAC921B0087C2BF /* GPSNavi */,
+				3A06D9D41DAC921B0087C2BF /* EmulatorNavi */,
+				3A06D9D11DAC921B0087C2BF /* DetectedMode */,
+				3A06D9D71DAC921B0087C2BF /* GPSEmulator */,
+			);
+			path = Section2;
+			sourceTree = "<group>";
+		};
+		3A06D9D11DAC921B0087C2BF /* DetectedMode */ = {
+			isa = PBXGroup;
+			children = (
+				3A06DA241DAC93980087C2BF /* DetectedModeViewController.swift */,
+			);
+			path = DetectedMode;
+			sourceTree = "<group>";
+		};
+		3A06D9D41DAC921B0087C2BF /* EmulatorNavi */ = {
+			isa = PBXGroup;
+			children = (
+				3A06DA261DAC93EC0087C2BF /* EmulatorNaviViewController.swift */,
+			);
+			path = EmulatorNavi;
+			sourceTree = "<group>";
+		};
+		3A06D9D71DAC921B0087C2BF /* GPSEmulator */ = {
+			isa = PBXGroup;
+			children = (
+				3A06DA281DAC94330087C2BF /* GPSEmulatorViewController.swift */,
+			);
+			path = GPSEmulator;
+			sourceTree = "<group>";
+		};
+		3A06D9DE1DAC921B0087C2BF /* GPSNavi */ = {
+			isa = PBXGroup;
+			children = (
+				3A06DA2A1DAC95A80087C2BF /* GPSNaviViewController.swift */,
+			);
+			path = GPSNavi;
+			sourceTree = "<group>";
+		};
+		3A06D9E11DAC921B0087C2BF /* Section3 */ = {
+			isa = PBXGroup;
+			children = (
+				3A06D9E21DAC921B0087C2BF /* HUDNavi */,
+			);
+			path = Section3;
+			sourceTree = "<group>";
+		};
+		3A06D9E21DAC921B0087C2BF /* HUDNavi */ = {
+			isa = PBXGroup;
+			children = (
+				3A06DA2C1DAC96270087C2BF /* HUDNaviViewController.swift */,
+			);
+			path = HUDNavi;
+			sourceTree = "<group>";
+		};
+		3A06DA2E1DAC979B0087C2BF /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				3A06DA2F1DAC979B0087C2BF /* DriveNaviViewController */,
+				3A06DA351DAC979B0087C2BF /* PointAnnotation */,
+				3A06DA381DAC979B0087C2BF /* RouteCollectionViewCell */,
+				3A06DA3B1DAC979B0087C2BF /* SelectableOverlay */,
+				3A06DA3E1DAC979B0087C2BF /* SpeechSynthesizer */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		3A06DA2F1DAC979B0087C2BF /* DriveNaviViewController */ = {
+			isa = PBXGroup;
+			children = (
+				3A06DA471DAC97B90087C2BF /* DriveNaviViewViewController.swift */,
+			);
+			path = DriveNaviViewController;
+			sourceTree = "<group>";
+		};
+		3A06DA351DAC979B0087C2BF /* PointAnnotation */ = {
+			isa = PBXGroup;
+			children = (
+				3A06DA4B1DAC97FA0087C2BF /* NaviPointAnnotation.swift */,
+			);
+			path = PointAnnotation;
+			sourceTree = "<group>";
+		};
+		3A06DA381DAC979B0087C2BF /* RouteCollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				3A06DA4D1DAC98290087C2BF /* RouteCollectionViewCell.swift */,
+			);
+			path = RouteCollectionViewCell;
+			sourceTree = "<group>";
+		};
+		3A06DA3B1DAC979B0087C2BF /* SelectableOverlay */ = {
+			isa = PBXGroup;
+			children = (
+				3A06DA4F1DAC98540087C2BF /* SelectableOverlay.swift */,
+			);
+			path = SelectableOverlay;
+			sourceTree = "<group>";
+		};
+		3A06DA3E1DAC979B0087C2BF /* SpeechSynthesizer */ = {
+			isa = PBXGroup;
+			children = (
+				3A06DA521DAC9D070087C2BF /* SpeechSynthesizer.swift */,
+			);
+			path = SpeechSynthesizer;
+			sourceTree = "<group>";
+		};
+		3A1B4B781CC77046003DEA3A /* officialDemoNavi-Swift */ = {
+			isa = PBXGroup;
+			children = (
+				3A1B4B931CC775DF003DEA3A /* officialDemoNavi-Swift-Bridging-Header.h */,
+				3A1B4B791CC77046003DEA3A /* AppDelegate.swift */,
+				3A06DA041DAC921B0087C2BF /* MainViewController.swift */,
+				3A06D9C31DAC921B0087C2BF /* Items */,
+				3A06DA2E1DAC979B0087C2BF /* Common */,
+				3A1B4B821CC77046003DEA3A /* LaunchScreen.storyboard */,
+				3A1B4B851CC77046003DEA3A /* Info.plist */,
+			);
+			path = "officialDemoNavi-Swift";
+			sourceTree = "<group>";
+		};
+		3A1B68E81EF0103B001E6A28 /* CustomMapType */ = {
+			isa = PBXGroup;
+			children = (
+				3A1B68E91EF0103B001E6A28 /* CustomMapTypeViewController.h */,
+				3A1B68EA1EF0103B001E6A28 /* CustomMapTypeViewController.m */,
+				3A1B68EB1EF0103B001E6A28 /* mystyle_sdk_1497259956_0100.data */,
+			);
+			path = CustomMapType;
+			sourceTree = "<group>";
+		};
+		3A1B68F21EF01222001E6A28 /* CustomMapType */ = {
+			isa = PBXGroup;
+			children = (
+				3A1B68F31EF01222001E6A28 /* CustomMapTypeViewController.swift */,
+			);
+			path = CustomMapType;
+			sourceTree = "<group>";
+		};
+		3A3605241CA23DB300DC3B61 = {
+			isa = PBXGroup;
+			children = (
+				3AC60C1B1F21AF86002F9BC8 /* README.md */,
+				3A36052F1CA23DB300DC3B61 /* officialDemoNavi */,
+				3A1B4B781CC77046003DEA3A /* officialDemoNavi-Swift */,
+				3A36052E1CA23DB300DC3B61 /* Products */,
+				3A06D97C1D9A2DF60087C2BF /* Frameworks */,
+				351138A666548396D524F508 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		3A36052E1CA23DB300DC3B61 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3A36052D1CA23DB300DC3B61 /* officialDemoNavi.app */,
+				3A1B4B771CC77046003DEA3A /* officialDemoNavi-Swift.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3A36052F1CA23DB300DC3B61 /* officialDemoNavi */ = {
+			isa = PBXGroup;
+			children = (
+				3A3605331CA23DB300DC3B61 /* AppDelegate.h */,
+				3A3605341CA23DB300DC3B61 /* AppDelegate.m */,
+				3A3605991CA29DE400DC3B61 /* MainViewController.h */,
+				3A36059A1CA29DE400DC3B61 /* MainViewController.m */,
+				3A3D2C761D51E5A80088356E /* Items */,
+				3A3605571CA29DE400DC3B61 /* Configuration */,
+				3A3D2C541D51E5A80088356E /* Common */,
+				3A3D2C671D51E5A80088356E /* Images */,
+				3A36053E1CA23DB300DC3B61 /* LaunchScreen.storyboard */,
+				3A3605411CA23DB300DC3B61 /* Info.plist */,
+				3A042B5F1DB86E5000BB9641 /* Images.xcassets */,
+				3A3605301CA23DB300DC3B61 /* Supporting Files */,
+			);
+			path = officialDemoNavi;
+			sourceTree = "<group>";
+		};
+		3A3605301CA23DB300DC3B61 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3A3605311CA23DB300DC3B61 /* main.m */,
+				3A3605CD1CA3872100DC3B61 /* libz.tbd */,
+				3A3605CB1CA3871900DC3B61 /* libc++.tbd */,
+				3A3605C91CA3871000DC3B61 /* libstdc++.6.0.9.tbd */,
+				3A3605CF1CA3872C00DC3B61 /* CoreTelephony.framework */,
+				3A3605C71CA386F200DC3B61 /* SystemConfiguration.framework */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3A3605571CA29DE400DC3B61 /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				3A3605581CA29DE400DC3B61 /* APIKey.h */,
+			);
+			path = Configuration;
+			sourceTree = "<group>";
+		};
+		3A3D2C541D51E5A80088356E /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				3A3D2C551D51E5A80088356E /* DriveNaviViewController */,
+				3A3D2C581D51E5A80088356E /* MoreMenuView */,
+				3A3D2C5B1D51E5A80088356E /* PointAnnotation */,
+				3A3D2C5E1D51E5A80088356E /* RouteCollectionViewCell */,
+				3A3D2C611D51E5A80088356E /* SelectableOverlay */,
+				3A3D2C641D51E5A80088356E /* SpeechSynthesizer */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		3A3D2C551D51E5A80088356E /* DriveNaviViewController */ = {
+			isa = PBXGroup;
+			children = (
+				3A3D2C561D51E5A80088356E /* DriveNaviViewController.h */,
+				3A3D2C571D51E5A80088356E /* DriveNaviViewController.m */,
+			);
+			path = DriveNaviViewController;
+			sourceTree = "<group>";
+		};
+		3A3D2C581D51E5A80088356E /* MoreMenuView */ = {
+			isa = PBXGroup;
+			children = (
+				3A3D2C591D51E5A80088356E /* MoreMenuView.h */,
+				3A3D2C5A1D51E5A80088356E /* MoreMenuView.m */,
+			);
+			path = MoreMenuView;
+			sourceTree = "<group>";
+		};
+		3A3D2C5B1D51E5A80088356E /* PointAnnotation */ = {
+			isa = PBXGroup;
+			children = (
+				3A3D2C5C1D51E5A80088356E /* NaviPointAnnotation.h */,
+				3A3D2C5D1D51E5A80088356E /* NaviPointAnnotation.m */,
+			);
+			path = PointAnnotation;
+			sourceTree = "<group>";
+		};
+		3A3D2C5E1D51E5A80088356E /* RouteCollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				3A3D2C5F1D51E5A80088356E /* RouteCollectionViewCell.h */,
+				3A3D2C601D51E5A80088356E /* RouteCollectionViewCell.m */,
+			);
+			path = RouteCollectionViewCell;
+			sourceTree = "<group>";
+		};
+		3A3D2C611D51E5A80088356E /* SelectableOverlay */ = {
+			isa = PBXGroup;
+			children = (
+				3A3D2C621D51E5A80088356E /* SelectableOverlay.h */,
+				3A3D2C631D51E5A80088356E /* SelectableOverlay.m */,
+			);
+			path = SelectableOverlay;
+			sourceTree = "<group>";
+		};
+		3A3D2C641D51E5A80088356E /* SpeechSynthesizer */ = {
+			isa = PBXGroup;
+			children = (
+				3A3D2C651D51E5A80088356E /* SpeechSynthesizer.h */,
+				3A3D2C661D51E5A80088356E /* SpeechSynthesizer.m */,
+			);
+			path = SpeechSynthesizer;
+			sourceTree = "<group>";
+		};
+		3A3D2C671D51E5A80088356E /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				3A3D2C681D51E5A80088356E /* arrowTexture0.png */,
+				3A3D2C691D51E5A80088356E /* arrowTexture1.png */,
+				3A3D2C6A1D51E5A80088356E /* arrowTexture2.png */,
+				3A3D2C6B1D51E5A80088356E /* arrowTexture3.png */,
+				3A3D2C6C1D51E5A80088356E /* arrowTexture4.png */,
+				3A3D2C6D1D51E5A80088356E /* car.png */,
+				3A3D2C6E1D51E5A80088356E /* car@2x.png */,
+				3A3D2C6F1D51E5A80088356E /* customCar.png */,
+				3A3D2C701D51E5A80088356E /* customCompass.png */,
+				3A3D2C711D51E5A80088356E /* leftArrow@2x.png */,
+				3A3D2C721D51E5A80088356E /* navi@2x.png */,
+				3A3D2C731D51E5A80088356E /* naviBackgroundHighlighted.png */,
+				3A3D2C741D51E5A80088356E /* naviBackgroundNormal.png */,
+				3A3D2C751D51E5A80088356E /* rightArrow@2x.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		3A3D2C761D51E5A80088356E /* Items */ = {
+			isa = PBXGroup;
+			children = (
+				D93CA8681EEAA55100475806 /* Section0 */,
+				3A3D2C771D51E5A80088356E /* Section1 */,
+				3A3D2C801D51E5A80088356E /* Section2 */,
+				3A3D2C941D51E5A80088356E /* Section3 */,
+				3A3D2C981D51E5A80088356E /* Section4 */,
+				3A3D2CB11D51E5A80088356E /* Section5 */,
+			);
+			path = Items;
+			sourceTree = "<group>";
+		};
+		3A3D2C771D51E5A80088356E /* Section1 */ = {
+			isa = PBXGroup;
+			children = (
+				3A3D2C781D51E5A80088356E /* DriveRoutePlan */,
+				3A3D2C7D1D51E5A80088356E /* WalkRoutePlan */,
+				3A06D9761D93F4910087C2BF /* RideRoutePlan */,
+			);
+			path = Section1;
+			sourceTree = "<group>";
+		};
+		3A3D2C781D51E5A80088356E /* DriveRoutePlan */ = {
+			isa = PBXGroup;
+			children = (
+				3A3D2C791D51E5A80088356E /* DriveRoutePlanViewController.h */,
+				3A3D2C7A1D51E5A80088356E /* DriveRoutePlanViewController.m */,
+				3A3D2C7B1D51E5A80088356E /* PreferenceView.h */,
+				3A3D2C7C1D51E5A80088356E /* PreferenceView.m */,
+			);
+			path = DriveRoutePlan;
+			sourceTree = "<group>";
+		};
+		3A3D2C7D1D51E5A80088356E /* WalkRoutePlan */ = {
+			isa = PBXGroup;
+			children = (
+				3A3D2C7E1D51E5A80088356E /* WalkRoutePlanViewController.h */,
+				3A3D2C7F1D51E5A80088356E /* WalkRoutePlanViewController.m */,
+			);
+			path = WalkRoutePlan;
+			sourceTree = "<group>";
+		};
+		3A3D2C801D51E5A80088356E /* Section2 */ = {
+			isa = PBXGroup;
+			children = (
+				3A3D2C8E1D51E5A80088356E /* GPSNavi */,
+				3A3D2C841D51E5A80088356E /* EmulatorNavi */,
+				3A3D2C811D51E5A80088356E /* DetectedMode */,
+				3A3D2C871D51E5A80088356E /* GPSEmulator */,
+			);
+			path = Section2;
+			sourceTree = "<group>";
+		};
+		3A3D2C811D51E5A80088356E /* DetectedMode */ = {
+			isa = PBXGroup;
+			children = (
+				3A3D2C821D51E5A80088356E /* DetectedModeViewController.h */,
+				3A3D2C831D51E5A80088356E /* DetectedModeViewController.m */,
+			);
+			path = DetectedMode;
+			sourceTree = "<group>";
+		};
+		3A3D2C841D51E5A80088356E /* EmulatorNavi */ = {
+			isa = PBXGroup;
+			children = (
+				3A3D2C851D51E5A80088356E /* EmulatorNaviViewController.h */,
+				3A3D2C861D51E5A80088356E /* EmulatorNaviViewController.m */,
+			);
+			path = EmulatorNavi;
+			sourceTree = "<group>";
+		};
+		3A3D2C871D51E5A80088356E /* GPSEmulator */ = {
+			isa = PBXGroup;
+			children = (
+				3A3D2C8C1D51E5A80088356E /* GPSEmulatorViewController.h */,
+				3A3D2C8D1D51E5A80088356E /* GPSEmulatorViewController.m */,
+				3A3D2C8A1D51E5A80088356E /* GPSEmulator.h */,
+				3A3D2C8B1D51E5A80088356E /* GPSEmulator.m */,
+				3A3D2C881D51E5A80088356E /* AMapNaviEmulatorLocations */,
+				3A3D2C891D51E5A80088356E /* AMapNaviEmulatorLocationsAddedTimes */,
+			);
+			path = GPSEmulator;
+			sourceTree = "<group>";
+		};
+		3A3D2C8E1D51E5A80088356E /* GPSNavi */ = {
+			isa = PBXGroup;
+			children = (
+				3A3D2C8F1D51E5A80088356E /* GPSNaviViewController.h */,
+				3A3D2C901D51E5A80088356E /* GPSNaviViewController.m */,
+			);
+			path = GPSNavi;
+			sourceTree = "<group>";
+		};
+		3A3D2C941D51E5A80088356E /* Section3 */ = {
+			isa = PBXGroup;
+			children = (
+				3A3D2C951D51E5A80088356E /* HUDNavi */,
+			);
+			path = Section3;
+			sourceTree = "<group>";
+		};
+		3A3D2C951D51E5A80088356E /* HUDNavi */ = {
+			isa = PBXGroup;
+			children = (
+				3A3D2C961D51E5A80088356E /* HUDNaviViewController.h */,
+				3A3D2C971D51E5A80088356E /* HUDNaviViewController.m */,
+			);
+			path = HUDNavi;
+			sourceTree = "<group>";
+		};
+		3A3D2C981D51E5A80088356E /* Section4 */ = {
+			isa = PBXGroup;
+			children = (
+				3A3D2C991D51E5A80088356E /* CustomCarCompass */,
+				3A3D2CA51D51E5A80088356E /* CustomRouteTrafficPolyline */,
+				3A3D2CA21D51E5A80088356E /* CustomRoutePolyline */,
+				3A3D2CAE1D51E5A80088356E /* CustomTurnInfo */,
+				3A3D2C9C1D51E5A80088356E /* CustomCrossLaneInfo */,
+				3A6BE8191EA5B677000A2B67 /* CustomTrafficBar */,
+				3A3D2C9F1D51E5A80088356E /* CustomFunctionalButton */,
+				3A3D2CA81D51E5A80088356E /* CustomTrackingMode */,
+				3A1B68E81EF0103B001E6A28 /* CustomMapType */,
+			);
+			path = Section4;
+			sourceTree = "<group>";
+		};
+		3A3D2C991D51E5A80088356E /* CustomCarCompass */ = {
+			isa = PBXGroup;
+			children = (
+				3A3D2C9A1D51E5A80088356E /* CustomCarCompassViewController.h */,
+				3A3D2C9B1D51E5A80088356E /* CustomCarCompassViewController.m */,
+			);
+			path = CustomCarCompass;
+			sourceTree = "<group>";
+		};
+		3A3D2C9C1D51E5A80088356E /* CustomCrossLaneInfo */ = {
+			isa = PBXGroup;
+			children = (
+				3A3D2C9D1D51E5A80088356E /* CustomCrossLaneInfoViewController.h */,
+				3A3D2C9E1D51E5A80088356E /* CustomCrossLaneInfoViewController.m */,
+			);
+			path = CustomCrossLaneInfo;
+			sourceTree = "<group>";
+		};
+		3A3D2C9F1D51E5A80088356E /* CustomFunctionalButton */ = {
+			isa = PBXGroup;
+			children = (
+				3A3D2CA01D51E5A80088356E /* CustomFunctionalButtonViewController.h */,
+				3A3D2CA11D51E5A80088356E /* CustomFunctionalButtonViewController.m */,
+			);
+			path = CustomFunctionalButton;
+			sourceTree = "<group>";
+		};
+		3A3D2CA21D51E5A80088356E /* CustomRoutePolyline */ = {
+			isa = PBXGroup;
+			children = (
+				3A3D2CA31D51E5A80088356E /* CustomRoutePolylineViewController.h */,
+				3A3D2CA41D51E5A80088356E /* CustomRoutePolylineViewController.m */,
+			);
+			path = CustomRoutePolyline;
+			sourceTree = "<group>";
+		};
+		3A3D2CA51D51E5A80088356E /* CustomRouteTrafficPolyline */ = {
+			isa = PBXGroup;
+			children = (
+				3A3D2CA61D51E5A80088356E /* CustomRouteTrafficPolylineViewController.h */,
+				3A3D2CA71D51E5A80088356E /* CustomRouteTrafficPolylineViewController.m */,
+			);
+			path = CustomRouteTrafficPolyline;
+			sourceTree = "<group>";
+		};
+		3A3D2CA81D51E5A80088356E /* CustomTrackingMode */ = {
+			isa = PBXGroup;
+			children = (
+				3A3D2CA91D51E5A80088356E /* CustomTrackingModeViewController.h */,
+				3A3D2CAA1D51E5A80088356E /* CustomTrackingModeViewController.m */,
+			);
+			path = CustomTrackingMode;
+			sourceTree = "<group>";
+		};
+		3A3D2CAE1D51E5A80088356E /* CustomTurnInfo */ = {
+			isa = PBXGroup;
+			children = (
+				3A3D2CAF1D51E5A80088356E /* CustomTurnInfoViewController.h */,
+				3A3D2CB01D51E5A80088356E /* CustomTurnInfoViewController.m */,
+			);
+			path = CustomTurnInfo;
+			sourceTree = "<group>";
+		};
+		3A3D2CB11D51E5A80088356E /* Section5 */ = {
+			isa = PBXGroup;
+			children = (
+				3A3D2CB21D51E5A80088356E /* MultiRoutePlan */,
+				3A3D2CB51D51E5A80088356E /* QuickStart */,
+			);
+			path = Section5;
+			sourceTree = "<group>";
+		};
+		3A3D2CB21D51E5A80088356E /* MultiRoutePlan */ = {
+			isa = PBXGroup;
+			children = (
+				3A3D2CB31D51E5A80088356E /* MultiRoutePlanViewController.h */,
+				3A3D2CB41D51E5A80088356E /* MultiRoutePlanViewController.m */,
+			);
+			path = MultiRoutePlan;
+			sourceTree = "<group>";
+		};
+		3A3D2CB51D51E5A80088356E /* QuickStart */ = {
+			isa = PBXGroup;
+			children = (
+				3A3D2CB81D51E5A80088356E /* QuickStartViewController.h */,
+				3A3D2CB91D51E5A80088356E /* QuickStartViewController.m */,
+				3A3D2CB61D51E5A80088356E /* QuickStartAnnotationView.h */,
+				3A3D2CB71D51E5A80088356E /* QuickStartAnnotationView.m */,
+			);
+			path = QuickStart;
+			sourceTree = "<group>";
+		};
+		3A6BE8191EA5B677000A2B67 /* CustomTrafficBar */ = {
+			isa = PBXGroup;
+			children = (
+				3A6BE81A1EA5B677000A2B67 /* CustomTrafficBarViewController.h */,
+				3A6BE81B1EA5B677000A2B67 /* CustomTrafficBarViewController.m */,
+			);
+			path = CustomTrafficBar;
+			sourceTree = "<group>";
+		};
+		3A6BE81D1EA5BC17000A2B67 /* CustomTrafficBar */ = {
+			isa = PBXGroup;
+			children = (
+				3A6BE81E1EA5BC33000A2B67 /* CustomTrafficBarViewController.swift */,
+			);
+			path = CustomTrafficBar;
+			sourceTree = "<group>";
+		};
+		D93CA8681EEAA55100475806 /* Section0 */ = {
+			isa = PBXGroup;
+			children = (
+				D9512E691F1F39D00021527D /* CompositeViewController.h */,
+				D9512E6A1F1F39D00021527D /* CompositeViewController.m */,
+			);
+			path = Section0;
+			sourceTree = "<group>";
+		};
+		D93CA86C1EEFF49100475806 /* Section0 */ = {
+			isa = PBXGroup;
+			children = (
+				D9512E6C1F1F40080021527D /* CompositeViewController.swift */,
+			);
+			path = Section0;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3A1B4B761CC77046003DEA3A /* officialDemoNavi-Swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A1B4B881CC77046003DEA3A /* Build configuration list for PBXNativeTarget "officialDemoNavi-Swift" */;
+			buildPhases = (
+				B94CEA71795F3A7212EC0FFD /* [CP] Check Pods Manifest.lock */,
+				3A1B4B731CC77046003DEA3A /* Sources */,
+				3A1B4B741CC77046003DEA3A /* Frameworks */,
+				3A1B4B751CC77046003DEA3A /* Resources */,
+				F8638BBF7B1522DFDF6771F6 /* [CP] Embed Pods Frameworks */,
+				44398842E8D569BD0043F7C4 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "officialDemoNavi-Swift";
+			productName = "officialDemoNavi-Swift";
+			productReference = 3A1B4B771CC77046003DEA3A /* officialDemoNavi-Swift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3A36052C1CA23DB300DC3B61 /* officialDemoNavi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A3605441CA23DB300DC3B61 /* Build configuration list for PBXNativeTarget "officialDemoNavi" */;
+			buildPhases = (
+				F45924189CBA958CA7BE07E3 /* [CP] Check Pods Manifest.lock */,
+				3A3605291CA23DB300DC3B61 /* Sources */,
+				3A36052A1CA23DB300DC3B61 /* Frameworks */,
+				3A36052B1CA23DB300DC3B61 /* Resources */,
+				B78B8FC185A8FC01B4A8906F /* [CP] Embed Pods Frameworks */,
+				FCEB6B7C1FA72061F17CF3B8 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = officialDemoNavi;
+			productName = officialDemoNavi;
+			productReference = 3A36052D1CA23DB300DC3B61 /* officialDemoNavi.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3A3605251CA23DB300DC3B61 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = AutoNavi;
+				TargetAttributes = {
+					3A1B4B761CC77046003DEA3A = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = YMJ372W38W;
+						LastSwiftMigration = 0800;
+						ProvisioningStyle = Manual;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+					3A36052C1CA23DB300DC3B61 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = YMJ372W38W;
+						ProvisioningStyle = Manual;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 3A3605281CA23DB300DC3B61 /* Build configuration list for PBXProject "officialDemoNavi" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3A3605241CA23DB300DC3B61;
+			productRefGroup = 3A36052E1CA23DB300DC3B61 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3A36052C1CA23DB300DC3B61 /* officialDemoNavi */,
+				3A1B4B761CC77046003DEA3A /* officialDemoNavi-Swift */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3A1B4B751CC77046003DEA3A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A06DA601DACD7FF0087C2BF /* naviBackgroundNormal.png in Resources */,
+				3A042B611DB86F0E00BB9641 /* Images.xcassets in Resources */,
+				3A06DA5A1DACD7FF0087C2BF /* car@2x.png in Resources */,
+				3A06DA5F1DACD7FF0087C2BF /* naviBackgroundHighlighted.png in Resources */,
+				3A1B68EF1EF010C6001E6A28 /* mystyle_sdk_1497259956_0100.data in Resources */,
+				3A06DA591DACD7FF0087C2BF /* car.png in Resources */,
+				3A06DA5E1DACD7FF0087C2BF /* navi@2x.png in Resources */,
+				3A06DA5D1DACD7FF0087C2BF /* leftArrow@2x.png in Resources */,
+				3A06DA611DACD7FF0087C2BF /* rightArrow@2x.png in Resources */,
+				3A06DA551DACD7FF0087C2BF /* arrowTexture1.png in Resources */,
+				3A06DA561DACD7FF0087C2BF /* arrowTexture2.png in Resources */,
+				3A1B4B841CC77046003DEA3A /* LaunchScreen.storyboard in Resources */,
+				3A06DA5C1DACD7FF0087C2BF /* customCompass.png in Resources */,
+				3A042B191DB0BAAB00BB9641 /* AMapNaviEmulatorLocationsAddedTimes in Resources */,
+				3A042B181DB0BAAB00BB9641 /* AMapNaviEmulatorLocations in Resources */,
+				3A06DA571DACD7FF0087C2BF /* arrowTexture3.png in Resources */,
+				3A06DA581DACD7FF0087C2BF /* arrowTexture4.png in Resources */,
+				3A06DA541DACD7FF0087C2BF /* arrowTexture0.png in Resources */,
+				3A06DA5B1DACD7FF0087C2BF /* customCar.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A36052B1CA23DB300DC3B61 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A3D2CC01D51E5A80088356E /* arrowTexture0.png in Resources */,
+				3A042B601DB86E5000BB9641 /* Images.xcassets in Resources */,
+				3A3D2CD41D51E5A80088356E /* AMapNaviEmulatorLocationsAddedTimes in Resources */,
+				3A1B68ED1EF0103B001E6A28 /* mystyle_sdk_1497259956_0100.data in Resources */,
+				3A3D2CCC1D51E5A80088356E /* naviBackgroundNormal.png in Resources */,
+				3A3D2CC61D51E5A80088356E /* car@2x.png in Resources */,
+				3A3D2CCA1D51E5A80088356E /* navi@2x.png in Resources */,
+				3A3D2CCB1D51E5A80088356E /* naviBackgroundHighlighted.png in Resources */,
+				3A3D2CCD1D51E5A80088356E /* rightArrow@2x.png in Resources */,
+				3A3D2CC81D51E5A80088356E /* customCompass.png in Resources */,
+				3A3D2CC21D51E5A80088356E /* arrowTexture2.png in Resources */,
+				3A3D2CD31D51E5A80088356E /* AMapNaviEmulatorLocations in Resources */,
+				3A3D2CC51D51E5A80088356E /* car.png in Resources */,
+				3A3D2CC31D51E5A80088356E /* arrowTexture3.png in Resources */,
+				3A3D2CC11D51E5A80088356E /* arrowTexture1.png in Resources */,
+				3A3D2CC91D51E5A80088356E /* leftArrow@2x.png in Resources */,
+				3A3D2CC41D51E5A80088356E /* arrowTexture4.png in Resources */,
+				3A3D2CC71D51E5A80088356E /* customCar.png in Resources */,
+				3A3605401CA23DB300DC3B61 /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		44398842E8D569BD0043F7C4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-officialDemoNavi-Swift/Pods-officialDemoNavi-Swift-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B78B8FC185A8FC01B4A8906F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-officialDemoNavi/Pods-officialDemoNavi-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B94CEA71795F3A7212EC0FFD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F45924189CBA958CA7BE07E3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F8638BBF7B1522DFDF6771F6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-officialDemoNavi-Swift/Pods-officialDemoNavi-Swift-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FCEB6B7C1FA72061F17CF3B8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-officialDemoNavi/Pods-officialDemoNavi-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3A1B4B731CC77046003DEA3A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A042B171DAF3CCC00BB9641 /* GPSEmulator.m in Sources */,
+				3A042B4C1DB0C0FF00BB9641 /* CustomRouteTrafficPolylineViewController.swift in Sources */,
+				3A06DA621DACFC420087C2BF /* MoreMenuView.m in Sources */,
+				3A042B541DB0C14900BB9641 /* QuickStartViewController.swift in Sources */,
+				3A1B68F41EF01222001E6A28 /* CustomMapTypeViewController.swift in Sources */,
+				3A042B521DB0C13700BB9641 /* MultiRoutePlanViewController.swift in Sources */,
+				3A06DA1B1DAC921C0087C2BF /* MainViewController.swift in Sources */,
+				3A042B461DB0C0BF00BB9641 /* CustomCrossLaneInfoViewController.swift in Sources */,
+				3A06DA231DAC93170087C2BF /* WalkRoutePlanViewController.swift in Sources */,
+				3A6BE81F1EA5BC33000A2B67 /* CustomTrafficBarViewController.swift in Sources */,
+				3A06DA2B1DAC95A80087C2BF /* GPSNaviViewController.swift in Sources */,
+				D9512E6D1F1F40080021527D /* CompositeViewController.swift in Sources */,
+				3A06DA1F1DAC92E70087C2BF /* PreferenceView.swift in Sources */,
+				3A042B4A1DB0C0EC00BB9641 /* CustomRoutePolylineViewController.swift in Sources */,
+				3A06DA271DAC93EC0087C2BF /* EmulatorNaviViewController.swift in Sources */,
+				3A06DA211DAC93030087C2BF /* RideRoutePlanViewController.swift in Sources */,
+				3A06DA481DAC97B90087C2BF /* DriveNaviViewViewController.swift in Sources */,
+				3A042B501DB0C12300BB9641 /* CustomTurnInfoViewController.swift in Sources */,
+				3A06DA1D1DAC92CD0087C2BF /* DriveRoutePlanViewController.swift in Sources */,
+				3A042B481DB0C0D300BB9641 /* CustomFunctionalButtonViewController.swift in Sources */,
+				3A042B441DB0C0AC00BB9641 /* CustomCarCompassViewController.swift in Sources */,
+				3A06DA251DAC93980087C2BF /* DetectedModeViewController.swift in Sources */,
+				3A042B561DB0C15E00BB9641 /* QuickStartAnnotationView.swift in Sources */,
+				3A06DA4C1DAC97FA0087C2BF /* NaviPointAnnotation.swift in Sources */,
+				3A06DA291DAC94330087C2BF /* GPSEmulatorViewController.swift in Sources */,
+				3A06DA4E1DAC98290087C2BF /* RouteCollectionViewCell.swift in Sources */,
+				3A06DA2D1DAC96270087C2BF /* HUDNaviViewController.swift in Sources */,
+				3A042B4E1DB0C11300BB9641 /* CustomTrackingModeViewController.swift in Sources */,
+				3A1B4B7A1CC77046003DEA3A /* AppDelegate.swift in Sources */,
+				3A06DA531DAC9D070087C2BF /* SpeechSynthesizer.swift in Sources */,
+				3A06DA501DAC98540087C2BF /* SelectableOverlay.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A3605291CA23DB300DC3B61 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A3D2CE11D51E5A80088356E /* CustomTurnInfoViewController.m in Sources */,
+				3A3605351CA23DB300DC3B61 /* AppDelegate.m in Sources */,
+				3A3D2CDE1D51E5A80088356E /* CustomRouteTrafficPolylineViewController.m in Sources */,
+				3A3D2CBF1D51E5A80088356E /* SpeechSynthesizer.m in Sources */,
+				D9512E6B1F1F39D00021527D /* CompositeViewController.m in Sources */,
+				3A3D2CDA1D51E5A80088356E /* CustomCarCompassViewController.m in Sources */,
+				3A3D2CE21D51E5A80088356E /* MultiRoutePlanViewController.m in Sources */,
+				3A3D2CDB1D51E5A80088356E /* CustomCrossLaneInfoViewController.m in Sources */,
+				3A3D2CBB1D51E5A80088356E /* MoreMenuView.m in Sources */,
+				3A6BE81C1EA5B677000A2B67 /* CustomTrafficBarViewController.m in Sources */,
+				3A3D2CBD1D51E5A80088356E /* RouteCollectionViewCell.m in Sources */,
+				3A3D2CD51D51E5A80088356E /* GPSEmulator.m in Sources */,
+				3A3D2CD11D51E5A80088356E /* DetectedModeViewController.m in Sources */,
+				3A3D2CD01D51E5A80088356E /* WalkRoutePlanViewController.m in Sources */,
+				3A3605321CA23DB300DC3B61 /* main.m in Sources */,
+				3A3D2CD91D51E5A80088356E /* HUDNaviViewController.m in Sources */,
+				3A3D2CE31D51E5A80088356E /* QuickStartAnnotationView.m in Sources */,
+				3A3D2CDF1D51E5A80088356E /* CustomTrackingModeViewController.m in Sources */,
+				3A1B68EC1EF0103B001E6A28 /* CustomMapTypeViewController.m in Sources */,
+				3A3D2CD61D51E5A80088356E /* GPSEmulatorViewController.m in Sources */,
+				3A3D2CCF1D51E5A80088356E /* PreferenceView.m in Sources */,
+				3A3D2CBE1D51E5A80088356E /* SelectableOverlay.m in Sources */,
+				3A3D2CD71D51E5A80088356E /* GPSNaviViewController.m in Sources */,
+				3A3D2CDC1D51E5A80088356E /* CustomFunctionalButtonViewController.m in Sources */,
+				3A06D9791D93F4910087C2BF /* RideRoutePlanViewController.m in Sources */,
+				3A3D2CE41D51E5A80088356E /* QuickStartViewController.m in Sources */,
+				3A3D2CD21D51E5A80088356E /* EmulatorNaviViewController.m in Sources */,
+				3AC60C1C1F21AF86002F9BC8 /* README.md in Sources */,
+				3A3605BC1CA29DE400DC3B61 /* MainViewController.m in Sources */,
+				3A3D2CDD1D51E5A80088356E /* CustomRoutePolylineViewController.m in Sources */,
+				3A3D2CBA1D51E5A80088356E /* DriveNaviViewController.m in Sources */,
+				3A3D2CCE1D51E5A80088356E /* DriveRoutePlanViewController.m in Sources */,
+				3A3D2CBC1D51E5A80088356E /* NaviPointAnnotation.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3A1B4B821CC77046003DEA3A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3A1B4B831CC77046003DEA3A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		3A36053E1CA23DB300DC3B61 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3A36053F1CA23DB300DC3B61 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3A1B4B861CC77046003DEA3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA76BEECC2035E35BFB694E8 /* Pods-officialDemoNavi-Swift.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				DEVELOPMENT_TEAM = YMJ372W38W;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/officialDemoNavi/Extern",
+				);
+				INFOPLIST_FILE = "officialDemoNavi-Swift/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.autonavi.officialDemoNavi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "87cd0391-16b0-4688-90bd-386a7bfa6ffc";
+				PROVISIONING_PROFILE_SPECIFIER = openPlatform_development;
+				SWIFT_OBJC_BRIDGING_HEADER = "officialDemoNavi-Swift-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		3A1B4B871CC77046003DEA3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA8081FD700AA3CCB88885BC /* Pods-officialDemoNavi-Swift.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				DEVELOPMENT_TEAM = YMJ372W38W;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/officialDemoNavi/Extern",
+				);
+				INFOPLIST_FILE = "officialDemoNavi-Swift/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.autonavi.officialDemoNavi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "a892512d-fe94-4702-b716-0b66880b936d";
+				PROVISIONING_PROFILE_SPECIFIER = openPlatformInhouse;
+				SWIFT_OBJC_BRIDGING_HEADER = "officialDemoNavi-Swift-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		3A3605421CA23DB300DC3B61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3A3605431CA23DB300DC3B61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3A3605451CA23DB300DC3B61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE5325663CDB3BF2A4F1F12A /* Pods-officialDemoNavi.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = YMJ372W38W;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/officialDemoNavi/Extern",
+				);
+				INFOPLIST_FILE = officialDemoNavi/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.autonavi.officialDemoNavi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "8014ae4e-33b6-4937-87e3-3725a2aad4f7";
+				PROVISIONING_PROFILE_SPECIFIER = openPlatform_development;
+			};
+			name = Debug;
+		};
+		3A3605461CA23DB300DC3B61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E1A7C3C44E8BF657FCF2141 /* Pods-officialDemoNavi.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				DEVELOPMENT_TEAM = YMJ372W38W;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/officialDemoNavi/Extern",
+				);
+				INFOPLIST_FILE = officialDemoNavi/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.autonavi.officialDemoNavi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "a892512d-fe94-4702-b716-0b66880b936d";
+				PROVISIONING_PROFILE_SPECIFIER = openPlatformInhouse;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3A1B4B881CC77046003DEA3A /* Build configuration list for PBXNativeTarget "officialDemoNavi-Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A1B4B861CC77046003DEA3A /* Debug */,
+				3A1B4B871CC77046003DEA3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3A3605281CA23DB300DC3B61 /* Build configuration list for PBXProject "officialDemoNavi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A3605421CA23DB300DC3B61 /* Debug */,
+				3A3605431CA23DB300DC3B61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3A3605441CA23DB300DC3B61 /* Build configuration list for PBXNativeTarget "officialDemoNavi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A3605451CA23DB300DC3B61 /* Debug */,
+				3A3605461CA23DB300DC3B61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3A3605251CA23DB300DC3B61 /* Project object */;
+}
